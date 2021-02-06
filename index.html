@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./bootstrap-4.5.3-dist/bootstrap-4.5.3-dist/css/bootstrap-grid.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="img/favicon.jpg">
+    <title>Frendie</title>
+</head>
+
+<body>
+
+    <div class="big-block" id="big-block">
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title login">
+                    Login Form</div>
+                <div class="title signup">
+                    Signup Form</div>
+            </div>
+            <div class="form-container">
+                <div class="slide-controls">
+                    <input type="radio" name="slide" id="login" checked>
+                    <input type="radio" name="slide" id="signup">
+                    <label for="login" class="slide login">Login</label>
+                    <label for="signup" class="slide signup">Signup</label>
+                    <div class="slider-tab">
+                    </div>
+                </div>
+                <div class="form-inner">
+                    <form action="#" class="login">
+                        <div class="field">
+                            <input class="name" type="text" placeholder="Name">
+                        </div>
+                        <div class="field">
+                            <input class="password" type="password" placeholder="Password">
+                        </div>
+                        <div class="pass-link">
+                            <a href="#">Forgot password?</a></div>
+                        <div class="field btn">
+                            <div class="btn-layer">
+                            </div>
+                            <input class="submit-btn" type="submit" value="Login">
+                        </div>
+                        <div id="myDIV">
+                            <p class="error-messege">Not correct Name or Password</p>
+                        </div>
+                        <div class="signup-link">
+                            Not a member? <a href="">Signup now</a></div>
+                    </form>
+                    <form action="#" class="signup">
+                        <div class="field">
+                            <input class="name-input" type="text" placeholder="Name">
+                        </div>
+                        <div class="field">
+                            <input class="password-input" type="password" placeholder="Password">
+                        </div>
+                        <div class="field">
+                            <input class="password2-input" type="password" placeholder="Confirm password">
+                        </div>
+                        <div id="myDIV2">
+                            <p class="error-messege">Not correct Name or Password</p>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer">
+                            </div>
+                            <input class="signup-btn" type="submit" value="Signup">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="big-block2" class="mec-block">
+        <div class="topnav">
+            <a href="#home" class="active"><img class="logo-img" src="./img/favicon.jpg" alt="#"></a>
+            <div id="myLinks">
+                <a href="#news">Home</a>
+                <a href="#contact">Shop</a>
+                <a href="#about">Contact Us</a>
+                <button class="logout-btn" id="logout-btn">Log out</button>
+            </div>
+            <a href="javascript:void(0);" class="icon">
+                <img class="burger-menu-icon" src="./img/burger-menu.png" alt="#">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+        <div class="navbar-block">
+            <img class="logo-img" src="img/favicon.jpg" alt="#">
+            <ul navbar-ul>
+                <li class="navbar-li"><a href="#" class="navbar-link">Home</a></li>
+                <li class="navbar-li"><a href="#" class="navbar-link">Shop</a></li>
+                <li class="navbar-li"><a href="#" class="navbar-link">Contact Us</a></li>
+                <li class="navbar-li"><button class="logout-btn" id="logout-btn2">Log out</button></li>
+            </ul>
+        </div>
+        <div class="search-cart-block">
+            <input type="search" class="search-input">
+            <button class="my-cart-btn">My cart</button>
+            <div class="ptichka"></div>
+        </div>
+        <h2 class="vernagir">Special offers</h2>
+        <div class="container blocks">
+            <div class="row container-block">
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="min-block">
+                        <img class="min-block-img" src="./img/raspberries.jpg" alt="#">
+                        <p class="min-block-text">Raspberries</p>
+                        <p class="kg-text2"><span class="kg-text">0</span></p>
+                        <button class="plus-minus-btn plus-minus-btn2 minus-btn">-</button>
+                        <input type="text" class="gumar-input" value="0">
+                        <button class="plus-minus-btn plus-btn">+</button>
+                        <p class="gumar">2000AMD</p>
+                        <button class="add-btn">Add to cart</button>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="min-block">
+                        <img class="min-block-img" src="./img/Apple.jpg" alt="#">
+                        <p class="min-block-text">Apple</p>
+                        <p class="kg-text2"><span class="kg-text">0</span></p>
+                        <button class="plus-minus-btn plus-minus-btn2 minus-btn">-</button>
+                        <input type="text" class="gumar-input" value="0">
+                        <button class="plus-minus-btn plus-btn">+</button>
+                        <p class="gumar">2000AMD</p>
+                        <button class="add-btn">Add to cart</button>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="min-block">
+                        <img class="min-block-img" src="./img/banan.jpg" alt="#">
+                        <p class="min-block-text">Banana</p>
+                        <p class="kg-text2"><span class="kg-text">0</span></p>
+                        <button class="plus-minus-btn plus-minus-btn2 minus-btn">-</button>
+                        <input type="text" class="gumar-input" value="0">
+                        <button class="plus-minus-btn plus-btn">+</button>
+                        <p class="gumar">2000AMD</p>
+                        <button class="add-btn">Add to cart</button>
+                    </div>
+
+                </div>
+                <div class="col-12 col-lg-3 col-md-6">
+                    <div class="min-block">
+                        <img class="min-block-img img2" src="./img/apricot.png" alt="#">
+                        <p class="min-block-text">Apricot</p>
+                        <p class="kg-text2"><span class="kg-text">0</span>AMD</p>
+                        <button class="plus-minus-btn plus-minus-btn2 minus-btn">-</button>
+                        <input type="text" class="gumar-input" value="0">
+                        <button class="plus-minus-btn plus-btn">+</button>
+                        <p class="gumar">2000AMD</p>
+                        <button class="add-btn">Add to cart</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+        <div id="myModal" class="modal">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">&times;</span>
+                    <h2 class="my-cart-header">My Cart</h2>
+                </div>
+                <div class="modal-body">
+                    <table id="customers" class="customers">
+                            <tr>
+                                <th>Product</th>
+                                <th>Weight</th>
+                                <th>Price</th>
+                            </tr>
+                           
+                    </table>
+                </div>
+                <div class="modal-footer">
+                    <button class="pay-btn">PAY</button>
+                </div>
+            </div>
+        </div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="main.js"></script>
+</body>
+
+</html>
